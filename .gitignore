@@ -1,0 +1,12 @@
+# Ignore build artifacts
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore local data files
+data/
+
+# Ignore VS Code files
+.vscode/
+.vs/
