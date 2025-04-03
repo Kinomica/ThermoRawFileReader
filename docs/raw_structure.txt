@@ -1,0 +1,22 @@
+The raw file structure is something like this
+
+RAW FILE
+- Instrument Metadata
+- Run Header (StartTime, EndTime, SpectraCount, etc.)
+- Scan 1
+      -- Scan Number: 1
+      -- Retention Time: 1.00 min
+      -- Filter: SRM ms2 Q1=726.8 → Q3=632.3 (Polarity, CE, etc.)
+      -- Stats: BasePeakIntensity, TotalIonCurrent
+      -- Centroid Data:
+        - m/z: 632.3
+        - Intensity: 120000
+- Scan 2
+      -- Scan Number: 2
+      -- Retention Time: 1.10 min
+      -- Filter: SRM ms2 Q1=726.8 → Q3=632.3
+      -- Intensity: 150000
+- Scan 3
+      -- Scan Number: 3
+      -- Filter: SRM ms2 Q1=726.8 → Q3=845.5
+     - etc.
